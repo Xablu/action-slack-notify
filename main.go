@@ -124,7 +124,7 @@ func main() {
 			case "commit":
 				field := []Field{
 					{
-						Title: "Commit",
+						Title: "Commit Changes",
 						Value: "<" + os.Getenv("GITHUB_SERVER_URL") + "/" + os.Getenv("GITHUB_REPOSITORY") + "/commit/" + os.Getenv("GITHUB_SHA") + "|" + commit_sha + ">",
 						Short: true,
 					},
